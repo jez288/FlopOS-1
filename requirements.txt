@@ -1,0 +1,13 @@
+argon2-cffi==25.1.0
+argon2-cffi-bindings==26.1.0
+ascii_magic==2.7.5
+bcrypt==5.0.0
+certifi==2026.7.22
+cffi==2.1.1
+charset-normalizer==3.5.1
+colorama==0.4.6
+idna==3.19
+pillow==12.3.0
+pycparser==3.0
+requests==2.34.2
+urllib3==2.7.0

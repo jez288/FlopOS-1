@@ -1,0 +1,47 @@
+{
+  "commands" : {
+    "help" : {
+      "name" : "Help",
+      "disc" : "Shows this message", 
+      "HasArg" : "False", 
+      "CanQuery" : "True",
+      "exec" : "System/Commands/Help.py"
+    }, 
+    "shutdown" : {
+      "name" : "Shutdown", 
+      "disc" : "Shuts down the system",
+      "HasArg" : "False",
+      "CanQuery" : "True", 
+      "exec" : "System/Commands/Shutdown.py"
+    },
+    "clear" : {
+      "name" : "Clear",
+      "disc" : "Clears the terminal",
+      "HasArg" : "False", 
+      "CanQuery" : "True",
+      "exec" : "System/Commands/Clear.py"
+    },
+    "cls" : {
+      "name" : "CLS",
+      "disc" : "Clears the terminal",
+      "HasArg" : "False",
+      "CanQuery" : "True",
+      "exec" : "System/Commands/Clear.py"
+    },
+
+    "echo" : {
+      "name" : "Echo",
+      "disc" : "Echos a message", 
+      "HasArg" : "True",
+      "CanQuery" : "True",
+      "exec" : "System/Commands/Echo.py"
+    }, 
+    "native" : {
+      "name" : "Native",
+      "disc" : "Runs a commands in your native shell until you type FlopOS", 
+      "HasArg" : "False",
+      "CanQuery" : "True",
+      "exec" : "System/Commands/Native.py"
+    }
+  }
+}
